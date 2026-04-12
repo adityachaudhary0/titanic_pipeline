@@ -1,4 +1,4 @@
-readme_content = """
+
 # Titanic Survival Prediction
 
 This project aims to predict the survival of passengers on the Titanic using a Support Vector Machine (SVM) model.
@@ -26,9 +26,3 @@ The SVM model was trained on the Titanic dataset. The following steps were invol
 -   **Model Training**: An SVM classifier was trained on the preprocessed data.
 -   **Evaluation**: The model achieved an accuracy of 82.12% on the test set.
 
-"""
-
-with open('README.md', 'w') as f:
-    f.write(readme_content)
-
-print("README.md file created successfully.")
