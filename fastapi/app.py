@@ -18,7 +18,9 @@ class InputData(BaseModel):
     Fare:Annotated[float,Field(...,description="The fare of the passenger")]
     Embarked:Annotated[Literal["S","C","Q"],Field(description="The port of embarkation of the passenger S:Southampton,C:Cherbourg,Q:Queenstown")]
 
-
+@app.get("/")
+def home():
+    return {"message": "Titanic API is running 🚀"}
 @app.post("/predict")
 def predict(data:InputData):
     try:
