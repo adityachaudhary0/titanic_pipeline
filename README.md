@@ -140,15 +140,6 @@ This project helped me practice:
 
 ---
 
-## 🌟 Future Improvements
-
-* Add prediction probability
-* Improve UI design
-* Deploy using Render & Streamlit Cloud
-* Add logging and monitoring
-
----
-
 ## 👨‍💻 Author
 
 Aditya Chaudhary
